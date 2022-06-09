@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-playground",
+  "name": "@yankeeinlondon/md-playground",
   "version": "0.1.0",
   "description": "Create interactive playgrounds of VueJS components while authoring in Markdown",
   "main": "dist/index.js",
@@ -49,7 +49,6 @@
   },
   "dependencies": {
     "@yankeeinlondon/happy-wrapper": "^1.0.0",
-    "fp-ts": "^2.12.1",
-    "vite-plugin-md": "^0.13.1"
+    "fp-ts": "^2.12.1"
   }
 }

@@ -39,17 +39,13 @@
     "vite": "^2.9.10",
     "vite-plugin-inspect": "^0.5.0",
     "vite-plugin-md": "^0.14.0",
-    "vite-plugin-pages": "^0.23.0",
-    "vitest": "^0.14.1",
-    "vue": "^3.2.37"
-  },
-  "peerDependencies": {
-    "vite-plugin-md": "^0.14.0",
-    "vue": "^3.2.37"
+    "vitest": "^0.14.1"
   },
   "dependencies": {
-    "@yankeeinlondon/happy-wrapper": "^1.0.0",
+    "vue": "^3.2.37",
     "fp-ts": "^2.12.1",
-    "vite-plugin-md": "^0.13.1"
+    "vite-plugin-md": "^0.13.1",
+    "@yankeeinlondon/md-playground": "workspace:*",
+    "@yankeeinlondon/happy-wrapper": "^1.0.0"
   }
 }

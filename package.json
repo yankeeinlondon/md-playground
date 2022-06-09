@@ -1,7 +1,12 @@
 {
   "name": "playground-monorepo",
   "description": "a builder API to enhance vite-plugin-md's capabilities",
-  "repository": {
-    
+  "repository": "https://github.com/yankeeinlondon/md-playground",
+  "scripts": {
+    "build": "pnpm -C packages/plugin run build",
+    "watch": "pnpm -C packages/plugin run watch",
+    "test": "pnpm -C packages/plugin run test",
+    "test:ui": "pnpm -C packages/plugin run test:ui",
+    "example": "pnpm -C packages/example run dev"
   }
 }
